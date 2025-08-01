@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic
+requests
+langchain
+langchain-community
+openai
+python-dotenv
+pytest
+redis
+spacy
+faker
+fpdf
