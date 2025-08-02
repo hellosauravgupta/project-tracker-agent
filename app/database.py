@@ -2,8 +2,8 @@
 Module: database.py
 
 This module configures the SQLAlchemy database connection engine, session factory,
-and base declarative class. It provides the `SessionLocal` factory for dependency injection
-in FastAPI routes, and `Base` as the declarative base for model definitions.
+and base declarative class. It provides the `SessionLocal` factory for dependency
+injection in FastAPI routes, and `Base` as the declarative base for model definitions.
 
 Attributes:
     engine (sqlalchemy.Engine): Database engine bound to the configured connection string.

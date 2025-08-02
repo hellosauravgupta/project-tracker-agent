@@ -2,7 +2,7 @@
 Part 1: Project Tracker API
 ===========================
 
-I implements a RESTful project and task management API using **FastAPI** and
+I implemented a RESTful project and task management API using **FastAPI** and
 **PostgreSQL**, with full support for schema validation, querying, and
 documentation.
 
@@ -62,6 +62,12 @@ Seed demo data:
 
     curl -X POST http://localhost:8000/seed
 
+
+Run unit tests with:
+
+.. code-block:: bash
+
+    docker-compose exec web pytest
 
 
 ==========================================================
